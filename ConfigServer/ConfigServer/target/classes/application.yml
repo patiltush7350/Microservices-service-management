@@ -1,0 +1,14 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: CONFIGURATION-SERVER
+
+
+cloud:
+  config:
+    server:
+      git:
+        uri: https://github.com/patiltush7350/microservice-config.git
+        clone-on-start: true
